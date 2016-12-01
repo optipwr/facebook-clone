@@ -106,8 +106,10 @@ img {
 }
 
 #cover-photo-lower {
-	margin-top: -150px;
-	margin-left: 20px;
+	margin-top: -140px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 
 #big-photo img {
@@ -121,6 +123,11 @@ img {
 	z-index: 2;
 	display: inline-block;
 	max-width: 20%;
+	
+}
+
+#big-avatar img {
+	margin-left: 20px;
 	border: 2px solid white;
 }
 
@@ -156,12 +163,13 @@ img {
 	float: left;
 	width: 100%;
 	position: relative;
-	top: -5px;
-	right: 5px;
+	top: -15px;
+	right: -5px;
 }
 
 button {
-	padding: 10px;
+	padding: 8px;
+	font-size: 12px;
 }
 
 #cover-menu {
@@ -183,4 +191,12 @@ button {
 #cover-photo-right {
 	display: inline-block;
 	width: 80%;
+}
+
+#remaining-area {
+	max-width:  900px;
+	height: 400px;
+	margin: auto;
+	width: 100%;
+	background-color: gray;
 }
